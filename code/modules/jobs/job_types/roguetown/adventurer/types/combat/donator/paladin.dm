@@ -17,9 +17,12 @@
 	H.virginity = TRUE
 
 	switch(H.patron?.type)
+		/* PSYDON */
 		if(/datum/patron/psydon)
 			head = /obj/item/clothing/head/roguetown/helmet/heavy/bucket/gold
 			wrists = /obj/item/clothing/neck/roguetown/psycross/g
+
+		/* DIVINE PANTHEON */
 		if(/datum/patron/divine/astrata)
 			head = /obj/item/clothing/head/roguetown/helmet/heavy/necked/astrata
 			wrists = /obj/item/clothing/neck/roguetown/psycross/silver/astrata
@@ -51,13 +54,15 @@
 			head = /obj/item/clothing/head/roguetown/helmet/sallet/eoran
 			wrists = /obj/item/clothing/neck/roguetown/psycross/silver/eora
 			H.virginity = FALSE
-		if(/datum/patron/inhumen/baotha, /datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/graggar_zizo, /datum/patron/godless)
-			head = /obj/item/clothing/head/roguetown/jester
-			if(H.mind)
-				H.change_stat("fortune", -20)
-		else // Failsafe
-			head = /obj/item/clothing/head/roguetown/helmet/heavy/bucket
-			wrists = /obj/item/clothing/neck/roguetown/psycross/silver
+		else
+			/* INHUMEN PANTHEON / GODLESS */
+			if(istype(H.patron, /datum/patron/inhumen) || istype(H.patron, /datum/patron/godless))
+				head = /obj/item/clothing/head/roguetown/jester
+				if(H.mind)
+					H.change_stat("fortune", -20)
+			else // Failsafe
+				head = /obj/item/clothing/head/roguetown/helmet/heavy/bucket
+				wrists = /obj/item/clothing/neck/roguetown/psycross/silver
 
 	armor = /obj/item/clothing/suit/roguetown/armor/plate
 	shirt = /obj/item/clothing/suit/roguetown/armor/chainmail

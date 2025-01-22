@@ -14,7 +14,17 @@
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
 
 /datum/outfit/job/roguetown/adventurer/barbarian
-	allowed_patrons = list(/datum/patron/divine/ravox, /datum/patron/divine/abyssor, /datum/patron/divine/necra, /datum/patron/divine/dendor, /datum/patron/godless, /datum/patron/inhumen/graggar)
+	allowed_patrons = list(
+		/datum/patron/divine/ravox,
+		/datum/patron/divine/abyssor,
+		/datum/patron/divine/necra,
+		/datum/patron/divine/dendor,
+
+		/datum/patron/inhumen/graggar,
+
+		/datum/patron/godless/ignorant,
+		/datum/patron/godless/rejected,
+	)
 
 /datum/outfit/job/roguetown/adventurer/barbarian/pre_equip(mob/living/carbon/human/H)
 	..()

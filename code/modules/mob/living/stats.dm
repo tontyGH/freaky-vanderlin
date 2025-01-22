@@ -9,7 +9,7 @@
 	var/STAINT = 10
 	var/STASPD = 10
 	var/STALUC = 10
-	var/datum/patron/patron = /datum/patron/godless
+	var/datum/patron/patron = /datum/patron/godless/ignorant
 	///These aren't. The "True" stat if you will.
 	var/TOTALSTR = 10
 	var/TOTALPER = 10
@@ -22,7 +22,7 @@
 	var/has_rolled_for_stats = FALSE
 
 /mob/living/proc/init_faith()
-	patron = GLOB.patronlist[/datum/patron/godless]
+	patron = GLOB.patronlist[/datum/patron/godless/ignorant]
 
 /mob/living/proc/set_patron(datum/patron/new_patron)
 	if(!new_patron)

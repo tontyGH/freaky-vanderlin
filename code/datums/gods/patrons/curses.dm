@@ -140,7 +140,7 @@
 /datum/curse/atheism/on_gain(mob/living/carbon/human/owner)
 	. = ..()
 	old_patron = owner.patron
-	owner.patron = /datum/patron/godless
+	owner.patron = /datum/patron/godless/rejected
 	owner.gain_trauma(/datum/brain_trauma/mild/phobia/religion)
 
 /datum/curse/atheism/on_loss(mob/living/carbon/human/owner)

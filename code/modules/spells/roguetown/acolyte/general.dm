@@ -135,7 +135,7 @@
 				if (HAS_TRAIT(target, TRAIT_BANDITCAMP))
 					conditional_buff = TRUE
 					situational_bonus = 25
-			if(/datum/patron/godless)
+			if(/datum/patron/godless/ignorant, /datum/patron/godless/rejected)
 				target.visible_message(span_info("No Gods answer these prayers."), span_notice("No Gods answer these prayers."))
 				return
 			else
