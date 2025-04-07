@@ -90,7 +90,6 @@
 		H.change_stat(STATKEY_PER, 3)
 		H.change_stat(STATKEY_INT, 3)
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	H.verbs |= /mob/living/carbon/human/proc/torture_victim
 
 /datum/advclass/hand/spymaster
@@ -138,7 +137,6 @@
 	H.change_stat(STATKEY_SPD, 4)
 	H.change_stat(STATKEY_INT, 2)
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 	H.verbs |= /mob/living/carbon/human/proc/torture_victim
 

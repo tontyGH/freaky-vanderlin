@@ -47,4 +47,3 @@
 		H.change_stat(STATKEY_PER, 3)
 		H.change_stat(STATKEY_END, 1)
 		H.change_stat(STATKEY_STR, 1)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)

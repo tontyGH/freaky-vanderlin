@@ -345,7 +345,6 @@
 		if(5) //heavy armored sword/flail/shields
 			H.simpmob_attack += 45
 			H.simpmob_defend += 25
-			ADD_TRAIT(src, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 			if(prob(30))
 				armor = /obj/item/clothing/armor/cuirass/iron/goblin
 			else

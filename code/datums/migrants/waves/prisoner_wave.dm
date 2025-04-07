@@ -118,7 +118,6 @@
 		H.change_stat(STATKEY_STR, 1)
 		H.change_stat(STATKEY_END, 2)
 		H.change_stat(STATKEY_CON, 1)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_KNOWBANDITS, TRAIT_GENERIC)
 	H.cmode_music = 'sound/music/cmode/garrison/CombatGarrison.ogg'
 	H.verbs |= /mob/proc/haltyell

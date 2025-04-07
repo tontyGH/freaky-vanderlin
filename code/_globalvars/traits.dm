@@ -96,8 +96,6 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"Noble Blooded" = TRAIT_NOBLE,
 		"Empath" = TRAIT_EMPATH,
 		"Battleready" = TRAIT_BREADY,
-		"Mail Training" = TRAIT_MEDIUMARMOR,
-		"Plate Training" = TRAIT_HEAVYARMOR,
 		"Fast Reflexes" = TRAIT_DODGEEXPERT,
 		"Villain" = TRAIT_VILLAIN,
 		"Critical Resistance" = TRAIT_CRITICAL_RESISTANCE,

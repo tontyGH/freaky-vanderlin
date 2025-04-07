@@ -68,7 +68,6 @@
 	H.change_stat(STATKEY_CON, 2)
 	H.change_stat(STATKEY_STR, 1)
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 
 	// Females are crossbow and dagger based
 	if(H.gender == FEMALE)

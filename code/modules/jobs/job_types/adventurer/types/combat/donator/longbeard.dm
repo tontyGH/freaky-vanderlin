@@ -44,5 +44,4 @@
 	backl = /obj/item/storage/backpack/satchel
 	head = /obj/item/clothing/head/rare/dwarfplate
 	neck = /obj/item/clothing/neck/chaincoif
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC) // Nothing fazes a longbeard

@@ -664,12 +664,9 @@
 
 /mob/living/carbon/human/check_armor_skill()
 	if(worn_armor_class == AC_HEAVY)
-		if(!HAS_TRAIT(src, TRAIT_HEAVYARMOR))
-			return FALSE
+		return FALSE
 	if(worn_armor_class == AC_MEDIUM)
-		if(!HAS_TRAIT(src, TRAIT_HEAVYARMOR))
-			if(!HAS_TRAIT(src, TRAIT_MEDIUMARMOR))
-				return FALSE
+		return FALSE
 	return TRUE
 
 /mob/living/proc/check_armor_weight()

@@ -43,8 +43,6 @@
 		H.change_stat(STATKEY_LCK, 2)
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_NOSEGRAB, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	H.cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 /datum/migrant_role/heartfelt/lady
 	name = "Lady of Heartfelt"
@@ -126,7 +124,6 @@
 		H.change_stat(STATKEY_PER, 2)
 		H.change_stat(STATKEY_INT, 3)
 
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_SEEPRICES, TRAIT_GENERIC)
 	H.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 
@@ -175,8 +172,6 @@
 		H.change_stat(STATKEY_SPD, -1)
 	H.dna.species.soundpack_m = new /datum/voicepack/male/knight()
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
 	H.cmode_music = 'sound/music/cmode/nobility/CombatKnight.ogg'
 /datum/migrant_role/heartfelt/knight/after_spawn(mob/living/L, mob/M, latejoin = TRUE)

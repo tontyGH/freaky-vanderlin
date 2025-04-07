@@ -41,7 +41,6 @@
 			pants = /obj/item/clothing/pants/tights/uncolored
 			head = /obj/item/clothing/head/roguehood
 			H.mind?.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
-			ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 			to_chat(H,span_info("\
 			I am a sellsword. A greenhorn, but a sellsword nonetheless.")
 			)
@@ -55,7 +54,6 @@
 			H.mind?.adjust_skillrank(/datum/skill/misc/athletics, 1, TRUE)
 			H.change_stat(STATKEY_END, -1)
 			H.change_stat(STATKEY_STR, -1)
-			ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 			to_chat(H,span_info("\
 			I am a sellsword by trade. I've held a weapon in my hand for longer than I can remember.")
 			)
@@ -122,7 +120,6 @@
 			H.change_stat(STATKEY_STR, 1)
 			H.change_stat(STATKEY_END, 1)
 			H.change_stat(STATKEY_SPD, -1)
-			ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 			to_chat(H,span_info("\
 			I'm just a humble peasant. My upbringing has left me ill-equipped for the journey ahead, but sturdier than most.")
 			)
@@ -237,7 +234,6 @@
 			neck = /obj/item/clothing/neck/gorget/copper
 			shirt = /obj/item/clothing/armor/gambeson
 			pants = /obj/item/clothing/pants/chainlegs
-			ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 			H.mind?.adjust_skillrank(/datum/skill/misc/athletics, 1, TRUE)
 			H.mind?.adjust_skillrank(/datum/skill/craft/cooking, 2, TRUE) // fat
 			H.change_stat(STATKEY_CON, 1)
@@ -256,7 +252,6 @@
 			pants = /obj/item/clothing/pants/tights/black
 			backpack_contents = list(/obj/item/clothing/gloves/rare/grenzelplate = 1, /obj/item/clothing/shoes/boots/rare/grenzelplate,)
 			H.mind?.adjust_skillrank(/datum/skill/misc/athletics, 1, TRUE) // heavy armor user
-			ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC) // Keep this rare. Only a handful of armor users get this.
 			ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
 			H.change_stat(STATKEY_CON, 1)
 			H.change_stat(STATKEY_PER, -4)

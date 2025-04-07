@@ -51,4 +51,3 @@
 		H.grant_language(/datum/language/zybantine)
 		to_chat(H, "<span class='info'>I can speak Zybean with ,z before my speech.</span>")
 
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)

@@ -84,7 +84,6 @@
 		H.change_stat(STATKEY_END, 2)
 		H.change_stat(STATKEY_CON, 1)
 	H.verbs |= /mob/proc/haltyell
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_KNOWBANDITS, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
 	if(H.dna?.species)

@@ -15,12 +15,10 @@
 /datum/antagonist/vampire/lord/apply_innate_effects(mob/living/mob_override)
 	. = ..()
 	var/mob/living/M = mob_override || owner.current
-	ADD_TRAIT(M, TRAIT_HEAVYARMOR, "[type]")
 
 /datum/antagonist/vampire/lord/remove_innate_effects(mob/living/mob_override)
 	. = ..()
 	var/mob/living/M = mob_override || owner.current
-	REMOVE_TRAIT(M, TRAIT_HEAVYARMOR, "[type]")
 
 /datum/antagonist/vampire/lord/on_gain()
 	owner.purge_combat_knowledge()

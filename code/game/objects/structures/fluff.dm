@@ -962,10 +962,7 @@
 						if(1)
 							I = new /obj/item/reagent_containers/glass/bottle/healthpot(user.loc)
 						if(2)
-							if(HAS_TRAIT(user, TRAIT_MEDIUMARMOR))
-								I = new /obj/item/clothing/armor/medium/scale(user.loc)
-							else
-								I = new /obj/item/clothing/armor/chainmail/iron(user.loc)
+							I = new /obj/item/clothing/armor/chainmail/iron(user.loc)
 						if(4)
 							I = new /obj/item/clothing/head/helmet/horned(user.loc)
 						if(6)

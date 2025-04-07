@@ -49,8 +49,6 @@
 			H.change_stat(STATKEY_INT, -1) //Brutebrain, relies on archer for healing, lockpicking and crafting.
 			H.change_stat(STATKEY_SPD, -1)
 
-			ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
-
 		if(H.gender == MALE) //Squishy hit-and-runner assassin.
 			shirt = /obj/item/clothing/shirt/shadowshirt
 			armor = /obj/item/clothing/armor/gambeson/shadowrobe

@@ -62,6 +62,5 @@
 			to_chat(H, "<span class='info'>I can speak Zybean with ,z before my speech.</span>")
 		H.change_stat(STATKEY_INT, 1)
 		H.change_stat(STATKEY_END, 2)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 		ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
 		ADD_TRAIT(H, TRAIT_FOREIGNER, TRAIT_GENERIC)

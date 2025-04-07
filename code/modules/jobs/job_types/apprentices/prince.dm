@@ -83,7 +83,6 @@
 		H.change_stat(STATKEY_SPD, 1)
 		H.change_stat(STATKEY_LCK, 1)
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 
 /datum/advclass/heir/aristocrat
 	name = "Sheltered Aristocrat"
@@ -94,7 +93,6 @@
 /datum/outfit/job/heir/aristocrat/pre_equip(mob/living/carbon/human/H)
 	..()
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 	belt = /obj/item/storage/belt/leather
 	beltl = /obj/item/key/manor
@@ -141,7 +139,6 @@
 	..()
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_CRITICAL_WEAKNESS, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_UGLY, TRAIT_GENERIC)
 	belt = /obj/item/storage/belt/leather
 	beltl = /obj/item/key/manor

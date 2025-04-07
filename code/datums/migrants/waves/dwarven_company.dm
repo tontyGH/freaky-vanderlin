@@ -47,8 +47,6 @@
 		H.mind?.adjust_skillrank(/datum/skill/craft/traps, 2, TRUE)
 		H.mind?.adjust_skillrank(/datum/skill/misc/reading, 2, TRUE)
 		ADD_TRAIT(H, TRAIT_MALUMFIRE, TRAIT_GENERIC)
-		ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 
 /datum/migrant_role/dwarven_company/weaponsmith
 	name = "Weapon Smith"
@@ -78,7 +76,6 @@
 		H.mind?.adjust_skillrank(/datum/skill/craft/traps, 2, TRUE)
 		H.mind?.adjust_skillrank(/datum/skill/misc/reading, 2, TRUE)
 		ADD_TRAIT(H, TRAIT_MALUMFIRE, TRAIT_GENERIC)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 		if(H.age == AGE_OLD)
 			H.mind?.adjust_skillrank(/datum/skill/craft/blacksmithing, pick(1,2), TRUE)
 			H.mind?.adjust_skillrank(/datum/skill/craft/weaponsmithing, pick(1,2), TRUE)
@@ -137,7 +134,6 @@
 		H.mind?.adjust_skillrank(/datum/skill/craft/traps, 2, TRUE) //
 		H.mind?.adjust_skillrank(/datum/skill/misc/reading, 2, TRUE)
 		ADD_TRAIT(H, TRAIT_MALUMFIRE, TRAIT_GENERIC)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 		if(H.age == AGE_OLD)
 			H.mind?.adjust_skillrank(/datum/skill/craft/blacksmithing, pick(1,2), TRUE)
 			H.mind?.adjust_skillrank(/datum/skill/craft/armorsmithing, pick(1,2), TRUE)

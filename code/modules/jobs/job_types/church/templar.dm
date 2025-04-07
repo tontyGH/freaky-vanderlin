@@ -119,7 +119,6 @@
 		else
 			H.mind?.adjust_skillrank(/datum/skill/combat/swords, 4, TRUE)
 			beltr = /obj/item/weapon/sword/long
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_KNOWBANDITS, TRAIT_GENERIC)
 

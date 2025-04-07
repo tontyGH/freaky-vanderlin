@@ -49,5 +49,4 @@
 			backr = /obj/item/weapon/polearm/spear/hoplite/winged
 			H.mind?.adjust_skillrank(/datum/skill/combat/polearms, 4, TRUE)
 
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)

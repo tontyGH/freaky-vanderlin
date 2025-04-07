@@ -57,7 +57,6 @@
 			to_chat(H, "<span class='info'>I can speak Zybean with ,z before my speech.</span>")
 		H.change_stat(STATKEY_INT, 1)
 		H.change_stat(STATKEY_END, 2)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 		ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
 		H.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
@@ -117,7 +116,6 @@
 			to_chat(H, "<span class='info'>I can speak Zybean with ,z before my speech.</span>")
 		H.change_stat(STATKEY_INT, 1)
 		H.change_stat(STATKEY_END, 2)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 		ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
 		H.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
@@ -184,8 +182,6 @@
 		to_chat(H, "<span class='info'>I can speak Zybean with ,z before my speech.</span>")
 
 	ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
 	H.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
@@ -231,8 +227,6 @@
 		H.mind?.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 		H.change_stat(STATKEY_STR, 1)
 		H.change_stat(STATKEY_END, 2)
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	H.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
 /datum/migrant_role/qatil

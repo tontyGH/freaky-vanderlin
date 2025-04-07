@@ -38,7 +38,6 @@
 	H.change_stat(STATKEY_END, 2)
 	H.change_stat(STATKEY_CON, 1)
 	H.change_stat(STATKEY_SPD, 1)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	H.adjust_blindness(-3)
 	var/weapons = list("Spear & Crossbow","Sword & Buckler")
 	var/weapon_choice = input("Choose your weapon.", "TAKE UP ARMS") as anything in weapons

@@ -72,7 +72,6 @@
 		H.change_stat(STATKEY_SPD, 1)
 	if(H.gender == MALE && H.dna?.species)
 		H.dna.species.soundpack_m = new /datum/voicepack/male/squire()
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 
 /datum/advclass/squire/footman
 	name = "Footman Squire"
@@ -109,7 +108,6 @@
 		H.change_stat(STATKEY_SPD, 1)
 	if(H.gender == MALE && H.dna?.species)
 		H.dna.species.soundpack_m = new /datum/voicepack/male/squire()
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 
 /datum/advclass/squire/skirmisher
 	name = "Bowman Squire"

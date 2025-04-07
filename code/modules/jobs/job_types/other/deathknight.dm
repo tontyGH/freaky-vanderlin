@@ -12,7 +12,6 @@
 	spawned.name = "Death Knight"
 	spawned.real_name = "Death Knight"
 
-	ADD_TRAIT(spawned, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(spawned, TRAIT_CRITICAL_WEAKNESS, TRAIT_GENERIC)
 
 /datum/outfit/job/deathknight/pre_equip(mob/living/carbon/human/H)

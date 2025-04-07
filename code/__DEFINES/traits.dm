@@ -11,8 +11,6 @@
 #define TRAIT_EMPATH					"Empath"
 #define TRAIT_BREADY					"Battleready"
 #define TRAIT_HEARING_SENSITIVE 		"hearing_sensitive"
-#define TRAIT_MEDIUMARMOR				"Mail Training"
-#define TRAIT_HEAVYARMOR				"Plate Training"
 #define TRAIT_DODGEEXPERT              "Fast Reflexes"
 #define TRAIT_DECEIVING_MEEKNESS 		"Deceiving Meekness"
 #define TRAIT_VILLAIN					"Villain"
@@ -126,8 +124,6 @@ GLOBAL_LIST_INIT(roguetraits, list(
 	TRAIT_NOBLE = span_blue("I'm of noble blood."),
 	TRAIT_EMPATH = "I can notice when people are stressed.",
 	TRAIT_BREADY = "Defensive stance does not passively fatigue me.",
-	TRAIT_MEDIUMARMOR = "I can move freely in medium armor.",
-	TRAIT_HEAVYARMOR = "I can move freely in heavy armor.",
 	TRAIT_DODGEEXPERT = "I can dodge easily while only wearing light armor.",
 	TRAIT_VILLAIN = "I am a devious, conniving villain!",
 	TRAIT_CRITICAL_RESISTANCE = "I am resistant to wounds that would be life threatening to others.",

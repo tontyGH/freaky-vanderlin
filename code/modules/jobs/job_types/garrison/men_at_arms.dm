@@ -82,7 +82,6 @@
 		H.change_stat(STATKEY_SPD, 1)
 		H.verbs |= /mob/proc/haltyell
 		ADD_TRAIT(H, TRAIT_KNOWBANDITS, TRAIT_GENERIC)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 
 /datum/advclass/menatarms/watchman_swordsmen
 	name = "Fencer Men-At-Arms"
@@ -119,7 +118,6 @@
 		H.mind?.adjust_skillrank(/datum/skill/craft/crafting, 1, TRUE)
 		H.change_stat(STATKEY_END, 2)
 		H.change_stat(STATKEY_SPD, 2)
-		ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 		ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 		ADD_TRAIT(H, TRAIT_KNOWBANDITS, TRAIT_GENERIC)
 		H.verbs |= /mob/proc/haltyell

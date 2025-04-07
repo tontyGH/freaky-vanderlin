@@ -32,7 +32,6 @@
 	H.mind?.adjust_skillrank(/datum/skill/misc/reading, 2, TRUE)
 	H.change_stat(STATKEY_STR, 1)
 	H.change_stat(STATKEY_END, 1)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	switch(pick(1,2))
 		if (1)
 			shoes = /obj/item/clothing/shoes/boots/leather

@@ -60,5 +60,3 @@
 		head = /obj/item/clothing/head/helmet/leather//similar to the miner helm, except not as cool of course
 
 	H.merctype = 3
-
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)

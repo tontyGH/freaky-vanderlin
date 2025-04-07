@@ -133,7 +133,6 @@
 	real_name = "zizombie"
 	mob_biotypes |= MOB_UNDEAD
 	ADD_TRAIT(src, TRAIT_NOSTAMINA, TRAIT_GENERIC)
-	ADD_TRAIT(src, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
 //	ADD_TRAIT(src, TRAIT_NOBREATH, TRAIT_GENERIC)
@@ -255,7 +254,6 @@
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOSTAMINA, TRAIT_GENERIC)
-	ADD_TRAIT(src, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	equipOutfit(new /datum/outfit/job/species/zizombie/npc/random)
 	dodgetime = 15
 	canparry = TRUE
@@ -294,7 +292,6 @@
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOSTAMINA, TRAIT_GENERIC)
-	ADD_TRAIT(src, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	equipOutfit(new /datum/outfit/job/species/zizombie/npc/warrior)
 	dodgetime = 15
 	canparry = TRUE
@@ -378,7 +375,6 @@
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOSTAMINA, TRAIT_GENERIC)
-	ADD_TRAIT(src, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	equipOutfit(new /datum/outfit/job/species/zizombie/npc/militiamen)
 	dodgetime = 15
 	canparry = TRUE
@@ -455,7 +451,6 @@
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOSTAMINA, TRAIT_GENERIC)
-	ADD_TRAIT(src, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	equipOutfit(new /datum/outfit/job/species/zizombie/npc/GRENZEL)
 	dodgetime = 15
 	canparry = TRUE
